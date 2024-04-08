@@ -4,6 +4,7 @@ import Tabs from './src/components/Tabs'
 import { ActivityIndicator,Text,View,StyleSheet } from 'react-native'
 import {useGetWeather} from './src/hooks/useGetWeather'
 import Error from './src/components/screens/Error'
+import * as Updates from 'expo-updates'
 
 
 

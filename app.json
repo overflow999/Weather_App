@@ -25,6 +25,25 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "overflow999"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0507ba48-bfc3-4a6b-8310-daaad456d005"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/0507ba48-bfc3-4a6b-8310-daaad456d005"
     }
   }
 }
